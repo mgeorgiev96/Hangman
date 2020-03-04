@@ -1,0 +1,124 @@
+
+
+.headContainer{
+    text-align: center;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    margin-top: 0;
+    padding: 2vh 0 2vh 0;
+    color: white;
+    border-bottom: 1px solid black;
+    margin-bottom: 10vh;
+}
+
+h1{
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.history{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    text-align: center;
+    align-self: center;
+    margin: 15vh 0 0 3vw;
+    word-break: break-all;
+}
+
+body{
+    margin: 0;
+    color: white;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+.container{
+    margin-top: 20vh;
+}
+
+
+.innerContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+button{
+    width: 20vw;
+    font-size: 1.1rem;
+    border-radius: 7px;
+    box-shadow: 0 2px 1px 1px gray;
+}
+.guess{
+    margin: 2vh 0 4vh 0;
+    font-size: 1.3rem;
+}
+
+
+.display{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    border-bottom: 1px solid black;
+    display: inline-flex;
+    width: 3.5vw;
+    text-align: center;
+    justify-content: center;
+    height: 3vh;
+    margin-left: 0.5vw;
+    font-size: 1.2rem;
+    opacity: 0.5;
+}
+
+.empty{
+    border: none;
+    
+}
+
+button:active{
+    transform: translateY(5px);
+    box-shadow: 0 0 0 0 gray ;
+    transition: 200ms ease-in-out;
+}
+
+button:hover{
+    background-color: #4e4376;
+    color: white;
+    cursor: pointer;
+    transition: background 500ms ease-in, color 200ms linear;
+        
+}
+p:hover{
+    transform: scale(1.2);
+    opacity: 1;
+    cursor: pointer;
+    transition: 850ms ease-in-out;
+    
+}
+
+
+@media all and (min-width: 700px){
+    button{
+        width:10vw;
+    }
+    p{
+        width: 2.5vw;
+
+    }
+    .history{
+        margin-left: 42vw;
+    }
+}
+
